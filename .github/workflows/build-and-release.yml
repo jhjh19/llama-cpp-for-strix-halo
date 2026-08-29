@@ -31,7 +31,7 @@ jobs:
             GGML_HIP_ROCWMMA_FATTN: 'OFF'
             
     name: Build with HIP support
-    runs-on: blacksmith-2vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
 
     steps:
       # 1 Checkout this repo
